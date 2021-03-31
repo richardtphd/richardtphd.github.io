@@ -42,7 +42,7 @@ function draw() {
   text(nf(xInWorld + widthInWorld, 1, 2) + ", " + nf(yInWorld + heightInWorld, 1, 2), width, 0);
 
   textAlign(CENTER, CENTER);
-  text("World Coordinate System", width / 2, 2 * fontSize);
+  text("World Coordinate System 2", width / 2, 2 * fontSize);
   text("width = " + str(width) + " pixels", width / 2, 5 * fontSize);
   text("height = " + str(height) + " pixels", width / 2, 6 * fontSize);
   text("aspect ratio = " + nf(width / height, 1, 3), width / 2, 7 * fontSize);
